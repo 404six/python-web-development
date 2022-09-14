@@ -15,7 +15,7 @@
 
 2 - create a virtual machine INSIDE the project folder by typing "virtualenv machine_name" in cmd
 
-3 - activate the virtual machine by typing "machine_name/Scripts/active" (or "deactivate" to desactive) in cmd
+3 - activate the virtual machine by typing "machine_name/Scripts/activate" (or "deactivate" to desactivate) in cmd
 
 4 - install django (python framework for web development) by typing "pip install django" in cmd
 
