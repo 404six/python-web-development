@@ -1,0 +1,35 @@
+# first steps (make once):
+
+1 - install python: https://www.python.org
+
+2 - make sure pip is installed by typing "pip list" in cmd
+
+3 - install an IDE (eg.: Visual Studio Code or PyCharm)
+
+4 - install virtualenv by typing "pip install virtualenv" in cmd (as admin)
+
+
+# creating a project:
+
+1 - create a folder for the project
+
+2 - create a virtual machine INSIDE the project folder by typing "virtualenv machine_name" in cmd
+
+3 - activate the virtual machine by typing "machine_name/Scripts/active" (or "deactivate" to desactive) in cmd
+
+4 - install django (python framework for web development) by typing "pip install django" in cmd
+
+5 - start the project by typing "django-admin startproject project_name ." in cmd
+
+6 - test the project by typing "py manage.py runserver" in cmd and copy the url then paste it on your browser
+
+ps: if everything works, you're gonna see an aircraft on the website.
+
+7 - make an initial migration (import django libraries and tools) by typing "py manage.py migrate" in cmd
+
+8 - create a super user for your server (general administrator) by typing "py manage.py createsuperuser" in cmd
+fill in all required informations, like user, e-mail and password.
+
+9 - access your server as a super user by accessing "server_ip:port/admin" and fill in all required fields.
+
+10 - everything should be working now, enjoy
